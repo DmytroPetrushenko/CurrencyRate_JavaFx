@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="my.project.view.ViewController">
+   <children>
+      <Button fx:id="button" layoutX="353.0" layoutY="142.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="25.0" prefWidth="87.0" text="Button" />
+      <Text fx:id="text" layoutX="29.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="180.0" >
+         <font>
+            <Font name="Constantia" size="18.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="choiceBox" layoutX="157.0" layoutY="142.0" onDragDetected="#handleChoiceBox" prefHeight="25.0" prefWidth="150.0" />
+      <Text fx:id="textTimeStamp" layoutX="29.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="180.0" >
+         <font>
+            <Font name="Constantia" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
